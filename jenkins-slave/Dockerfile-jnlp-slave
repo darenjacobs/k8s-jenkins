@@ -1,5 +1,6 @@
 FROM openjdk:8-jdk
 MAINTAINER Daren Jacobs <daren.jacobs@fhlbny.com>
+LABEL Description="Source for https://hub.docker.com/r/darenjacobs/jnlp-slave/tags/"
 
 ARG user=jenkins
 ARG group=jenkins

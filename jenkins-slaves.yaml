@@ -15,7 +15,7 @@
       spec:
         containers:
           - name: "freestyle"
-            image: "darenjacobs/jenkins-swarm-slave:3.12.3"
+            image: "darenjacobs/jenkins-swarm-slave:3.13.0"
             command:
               - "/usr/local/bin/jenkins-slave.sh"
               - "-master"
