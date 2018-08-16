@@ -1,6 +1,6 @@
 FROM darenjacobs/jnlp-slave:3.20.1-alpine
 MAINTAINER Daren Jacobs <daren.jacobs@fhlbny.com>
-LABEL Description ="Jenkins JNLP slave. Source for darenjacobs/custom-slave:alpine"
+LABEL Description ="Source for darenjacobs/custom-slave:alpine - https://hub.docker.com/r/darenjacobs/custom-slave/tags/"
 USER root
 ARG user=jenkins
 ENV TZ="America/New_York"
